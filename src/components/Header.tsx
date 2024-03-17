@@ -4,8 +4,8 @@ import { SearchBar } from './SearchBar';
 
 export function Header() {
   return (
-    <header className="flex flex-col justify-center bg-slate-950 h-52 relative">
-      <div className="self-center border-2">
+    <header className="flex flex-col justify-center bg-gray700 h-52 relative">
+      <div className="self-center">
         <img src={toDoLogo} alt="logo todo app" className='w-[18rem] lg:w-auto' />
       </div>
       <SearchBar/>  
