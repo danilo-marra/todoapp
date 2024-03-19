@@ -1,5 +1,4 @@
 import toDoLogo from '../assets/logo-todo.svg';
-import styles from './Header.module.css'
 import { SearchBar } from './SearchBar';
 
 export function Header() {
