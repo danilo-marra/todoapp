@@ -33,7 +33,7 @@ export function App() {
         tasks={tasks}
         setTasks={setTasks}
        />
-      <section className="mt-[7rem] max-w-full sm:max-w-screen-sm lg:max-w-screen-lg mx-auto lg:mt-20 flex justify-between items-center font-bold">
+      <section className="mt-[7rem] text-sm max-w-md px-2 sm:max-w-screen-sm lg:max-w-screen-lg mx-auto lg:mt-20 flex justify-between items-center font-bold">
         <CreatedTasks 
           tasks={tasks} 
         />

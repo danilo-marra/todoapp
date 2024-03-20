@@ -55,7 +55,11 @@ export function SearchBar({ tasks, setTasks }: SearchBarProps) {
           <div className='max-w-96 mx-auto'>
             <button
               type='submit' 
-              className='flex w-1/2 bg-blue-500 hover:bg-blue-400 transition-colors rounded-lg text-slate-50 min-h-10 mt-3 mx-auto lg:w-auto lg:mt-0 lg:h-14 items-center justify-center px-4'
+              className={`flex w-1/2 bg-blue-500 ${
+                newTaskContent ? 'hover:bg-blue-400' : ''
+              } transition-colors rounded-lg text-slate-50 min-h-10 mt-3 mx-auto lg:w-auto lg:mt-0 lg:h-14 items-center justify-center px-4`}
+              style={{ cursor: newTaskContent ? 'pointer' : 'not-allowed' }}
+              disabled={!newTaskContent}
             >
               <span className='font-bold text-lg lg:text-sm'>Criar</span>
               <span className='ml-2'><PlusCircle size={20}/></span>
