@@ -94,7 +94,7 @@ I still need to learn more about other JavaScript methods and how to use JSON to
 
 - [JS documentation](https://developer.mozilla.org/) - For understanding better about array methods
 - [Tailwind documentation](https://tailwindcss.com/) - On how adjust size of screens in my app
-- [Chat GPT](https://chat.openai.com/) - Help me to undersstand some concepts of React.js and Typescript as a whole
+- [Chat GPT](https://chat.openai.com/) - Help me to understand some concepts of React.js and Typescript as a whole
 
 ## Author
 
